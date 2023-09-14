@@ -7,6 +7,6 @@ WORKDIR /app
 COPY ./build/libs/application-0.0.1-SNAPSHOT.war /app/application.war
 
 # 8080 포트를 노출합니다.
-EXPOSE 8080
+EXPOSE 8585
 
 ENTRYPOINT ["java", "-jar", "/app/application.war"]
