@@ -27,6 +27,8 @@ public class DockerApplicationController {
         log.info("코드 변경 컨트롤러");
         log.info("코드 변경 컨트롤러");
         log.info("코드 변경 컨트롤러");
+        log.info("코드 변경 컨트롤러");
+        log.info("코드 변경 컨트롤러");
 
         return "spring/docker";
     }
