@@ -1,5 +1,5 @@
 # 기본 Java 이미지를 사용합니다.
-FROM openjdk:17-jdk-slim
+FROM openjdk:11-jdk-slim
 
 WORKDIR /app
 
