@@ -3,8 +3,8 @@ FROM openjdk:11-jdk-slim
 
 WORKDIR /app
 
-# WAR 파일을 복사합니다. (application-plain.war로 수정)
-COPY ./build/libs/application-plain.war /app/application.war
+# WAR 파일을 복사합니다.
+COPY ./build/libs/application-0.0.1-SNAPSHOT.war /app/application.war
 
 # 8080 포트를 노출합니다.
 EXPOSE 8080
